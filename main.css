@@ -1,0 +1,44 @@
+body  {
+    background-color: #d3d3d3;
+}
+
+.wrapper  {
+    border: 10px solid red;
+}
+
+/* rule-set #1: Everything within the body tag will have a green background. */body  {
+    background-color: green;
+}
+
+/* rule-set #2: Everything within a wrapper class will have a red background. */
+.wrapper {
+    background-color:red;
+}
+
+/* rule-set #3: All h1 tags within the wrapper class will have a font-size of 12 pixels. */
+.wrapper h1{
+    font-size: 12px;
+}
+
+.The-padding{
+    border:2px solid blue;
+        margin-top: 50px;
+        margin-right: 250 px;
+        margin-bottom: 200px;
+        margin-left: 200px;
+    padding: 20px 20px 20px 40px;
+}
+
+#my-margins1{
+    height: 20px
+    background purple;
+        border: 5px solid pink;
+        margin: 0px 0px 0px 0px;
+}
+
+#my-margins2{
+    height: 40px
+    background orange;
+        border: 8px solid pink;
+        margin: 0px 0px 0px 0px;
+}
